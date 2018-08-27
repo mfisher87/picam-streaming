@@ -6,4 +6,6 @@ Intended for use on a pi (I am using a Zero W) with camera module on a fresh Ras
 
 ## Install
 
-Run install.sh to configure and start the service.
+Run install.sh to configure and start the service:
+
+    source install.sh
