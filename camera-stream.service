@@ -1,0 +1,13 @@
+[Unit]
+Description=auto start stream
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/picam-streaming/stream-http.sh
+User=pi
+WorkingDirectory=/home/pi/picam-streaming
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
