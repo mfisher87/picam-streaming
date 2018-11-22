@@ -11,6 +11,14 @@ Run install.sh to configure and start the service:
 
     source install.sh
 
+Start and stop scripts exist as shortcuts to systmctl commands.
+
+## Running
+
+The service will be available via HTTP on port 8080. e.g.: `http://192.168.0.2:8080/`
+
+You can add this feed to MotionEye or HomeAssistant or some other NVR utility as an MJPG camera.
+
 ## Credit
 
 This is made possible by https://github.com/ccrisan/streameye. I haven't found a better way to

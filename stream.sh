@@ -1,6 +1,5 @@
 #!/bin/bash
 
-port=8554
 width=640
 height=480
 fps=10
