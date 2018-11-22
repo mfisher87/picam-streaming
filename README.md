@@ -1,11 +1,19 @@
 # picam-streaming
 
-Some scripts for streaming with raspberry pi camera module at reasonably low latency.
+Some scripts for streaming with Raspberry Pi camera module at reasonably low latency.
 
-Intended for use on a pi (I am using a Zero W) with camera module on a fresh Raspian install.
+Intended for use with a fresh Raspian-Lite install. I am using several Pi Zero Ws and
+streaming over WiFi with no hiccups.
 
 ## Install
 
 Run install.sh to configure and start the service:
 
     source install.sh
+
+## Credit
+
+This is made possible by https://github.com/ccrisan/streameye. I haven't found a better way to
+stream video from a Pi Zero with low latency, reasonable framerate and reasonable resolution.
+
+I use MotionEye on a central server and stream video to MotionEye from multiple Pi Zero Ws.
