@@ -3,6 +3,9 @@
 Some scripts for reliable streaming with Raspberry Pi camera module with low
 latency, reasonable framerate, and reasonable resolution.
 
+Streaming with cvlc was unreliable, slow to initialize in a viewer, and video
+speed was not stable.
+
 Intended for use with a fresh Raspian-Lite install. I am using several Pi Zero
 Ws and streaming over WiFi with no hiccups.
 
@@ -40,6 +43,6 @@ server:
 * https://hub.docker.com/r/ccrisan/motioneye/
 * https://hub.docker.com/r/homeassistant/home-assistant/
 
-I think you can up the framerate and resolution constants in `stream.sh` if you
-overclock your Pi (or have a more powerful Pi than a Zero W). Be sure it
-doesn't overheat!
+I think you can up the framerate and resolution constants in `stream.sh`,
+especially if you overclock your Pi (or have a more powerful Pi than a Zero
+W). Be sure it doesn't overheat!
